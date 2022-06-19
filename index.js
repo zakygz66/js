@@ -27,6 +27,9 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
     console.log(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')(`
         Simple Duplicate Trophy & Crown Stumble Guis.
         By : Eskey#8004 - Credit : @dkmpostor
+        🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
+        🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
+         🌈🌈🌈🌈 Edisi Rainbow 🌈🌈🌈🌈
     `));
 
     const auth = rs.question(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')('Masukin Code Auth : '));
@@ -37,7 +40,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
         const result = await GoStumble(auth);
         if (!result) {
 
-            console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Code Auth sudah Expired!`));
+            console.log(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')(`\r[ ${moment().format('HH:mm:ss')} ] Code Auth sudah Expired!`));
             break;
 
         } else if (result.includes('User')) {
@@ -48,10 +51,10 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
             const trophy = data.User.SkillRating;
             const crown = data.User.Crowns;
             
-            console.log(chalk.green(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.magenta(`Trophy : ${trophy}`)} | ${chalk.yellow(`Crown : ${crown}`)}`));
+            console.log(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')(`\r[ ${moment().format('HH:mm:ss')} ] Trophy : ${trophy} | Crown : ${crown}`));
             
         } else if (result == 'BANNED') {
-            console.log(chalk.red(`\r[ ${moment().format('HH:mm:ss')} ] Akun terkena Banned !`));
+            console.log(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')(`\r[ ${moment().format('HH:mm:ss')} ] 🌈Akun terkena Banned ! 🏳️‍🌈`));
             break;
         }
     }
