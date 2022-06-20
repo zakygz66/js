@@ -29,7 +29,7 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
         By : Eskey#8004 - Credit : @dkmpostor
     `));
 
-    const auth = rs.question(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')('Masukin Code Auth : '));
+    const auth = '{"DeviceId":"5ef8a667ba90ce08ae8703bfd75d01dc","GoogleId":"","FacebookId":"","Token":"FamZEIcNjvMqK1s5lizaPVnuMyFDnycw","Timestamp":1655763765,"Hash":"9d480078a8ae6284eaa3cd2e5279deb6fcc7f5dc"}'
     console.log('');
 
     while (true) {
