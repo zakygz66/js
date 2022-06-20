@@ -25,11 +25,8 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
     console.log(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')(`
-        Simple Duplicate Trophy & Crown Stumble Guis.
+                Duplicator Crown Only
         By : Eskey#8004 - Credit : @dkmpostor
-        🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
-        🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈
-         🌈🌈🌈🌈 Edisi Rainbow 🌈🌈🌈🌈
     `));
 
     const auth = rs.question(gradient('red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet')('Masukin Code Auth : '));
